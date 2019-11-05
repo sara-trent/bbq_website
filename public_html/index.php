@@ -9,16 +9,10 @@
 </head>
 
 <body>
+
 	<header>
 		<img src="img/content/logo.png" alt="The Bagel's logo." class="logo">
-		<nav><ul>
-			<li><a href="index.html" class="active">Home Page</a></li>
-			<li><a href="products.html">Products</a></li>
-			<li><a href="recipes.html">Recipes</a></li>
-			<li><a href="news.html">News</a></li>
-			<li><a href="locations.html">Locations</a></li>
-			<li><a href="about.html">About</a></li>
-		</ul></nav>
+	<?php include '../resources/navigation.php'; ?>
 	</header>
 	<div>
 		<p class="a"><b>"Here at Bagel's, we're not just <em>passionate</em> about sauce, we live and breath sauce. We <i>are</i> the sauce!"</b><br>–<i>Saucy Sauceguy</i></p>
@@ -53,10 +47,9 @@
 			<input type="submit" value="Forgot Password">
 		</form></td></tr></table>
 	</div>
-
-
+  
+<?php include '../resources/footer.php'; ?>
 	<footer>
-		<p>&#169; Copyright 2019 Bagel's Sauce and Co.| Website by Trey, Sara, and Micaela</p>
 	</footer>
 </body>
 </html>

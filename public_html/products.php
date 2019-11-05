@@ -31,15 +31,16 @@ tr:hover {
 </head>
 
 <body>
+  <?php include '../resources/navigation.php'; ?>
 	<header>
 		<img src="img/content/logo.png" alt="The Bagel's logo." class="logo">
 		<nav><ul>
-			<li><a href="index.html">Home Page</a></li>
-			<li><a href="products.html" class="active">Products</a></li>
-			<li><a href="recipes.html">Recipes</a></li>
-			<li><a href="news.html">News</a></li>
-			<li><a href="locations.html">Locations</a></li>
-			<li><a href="about.html">About</a></li>
+			<li><a href="index.php">Home Page</a></li>
+			<li><a href="products.php" class="active">Products</a></li>
+			<li><a href="recipes.php">Recipes</a></li>
+			<li><a href="news.php">News</a></li>
+			<li><a href="locations.php">Locations</a></li>
+			<li><a href="about.php">About</a></li>
 		</ul></nav>
 	</header>
 <!-- Micaela changed the pictures of the bottles -->	
@@ -95,7 +96,7 @@ tr:hover {
 		  </tbody>
 		</table>
 	</div>
-
+    <?php include '../resources/footer.php'; ?>
 	<footer>
 	<p>&#169; Copyright 2019 Bagel's Sauce and Co.| Website by Trey, Sara, and Micaela</p>
 	</footer>

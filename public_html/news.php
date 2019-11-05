@@ -7,16 +7,17 @@
 </head>
 
 <body>
+ <?php include '../resources/navigation.php'; ?>
 	<header>
 	<img src="img/content/logo.png" alt="Bagel's Logo" class="logo">
 	</header>
 	<nav><ul>
-		<li><a href="index.html">Home Page</a></li>
-		<li><a href="products.html">Products</a></li>
-		<li><a href="recipes.html">Recipes</a></li>
-		<li><a href="news.html" class="active">News</a></li>
-		<li><a href="locations.html">Locations</a></li>
-		<li><a href="about.html">About</a></li>
+		<li><a href="index.php">Home Page</a></li>
+		<li><a href="products.php">Products</a></li>
+		<li><a href="recipes.php">Recipes</a></li>
+		<li><a href="news.php" class="active">News</a></li>
+		<li><a href="locations.php">Locations</a></li>
+		<li><a href="about.php">About</a></li>
 	</ul></nav>
 
 	<div>
@@ -45,7 +46,7 @@
 			<p>Bagel's BBQ Sauce has opened up their first gift shop as of today! The first 20 customers received a complimentary bottle of Honey Mustard Sauce, and the first 5 also received a miniature bottle of Dragon's Venom, probably for souvenir rather than consumption. The store features T-Shirts, stuffed animals, blankets, and of course, the special Bagel's Sauces.</p>
 		</article>
 	</div>
-
+  <?php include '../resources/footer.php'; ?>
 
 	<footer>
 	<p>&#169; Copyright 2019 Bagel's Sauce and Co.| Website by Trey, Sara, and Micaela</p>
